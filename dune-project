@@ -2,13 +2,13 @@
 
 (using melange 0.1)
 
-(name melange-opam-template)
+(name snake-reason-game)
 
 (license "MIT")
 
-(maintainers <your_name>)
+(maintainers @kevinanantha)
 
-(authors <your_name>)
+(authors "Kevin Anantha")
 
 (homepage https://github.com/your/project)
 
@@ -16,6 +16,6 @@
 
 (package
  (allow_empty)
- (name melange-opam-template)
- (synopsis "Melange project")
- (description "Minimal melange project"))
+ (name snake-reason-game)
+ (synopsis "Snake Reason Game")
+ (description "Snake Reason Game"))

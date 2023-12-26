@@ -2,10 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Melange Basic Template</title>
+    <title>Snake Reason Game</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background: #343b4b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      canvas {
+        border: 1px solid white;
+        background: #252932;
+      }
+    </style>
     <script type="module" src="main.js"></script>
   </head>
   <body>
-    <div id="root"></div>
+    <canvas 
+      width="400"
+      height="400"
+      id="game-board"
+    ></canvas>
+    <!-- <div id="root"></div> -->
   </body>
 </html>

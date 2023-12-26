@@ -1,9 +1,11 @@
 {
   "scripts": {
     "bundle": "webpack --mode production --entry ./_build/default/src/output/src/ReactApp.js",
-    "serve": "webpack serve --open --mode development --entry ./_build/default/src/output/src/ReactApp.js"
+    "serve": "webpack serve --open --mode development --entry ./_build/default/src/output/src/ReactApp.js",
+    "dev": "concurrently \"make watch\" \"make serve\""
   },
   "dependencies": {
+    "concurrently": "^8.2.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
